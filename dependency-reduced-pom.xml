@@ -4,7 +4,7 @@
   <groupId>com.rimidev</groupId>
   <artifactId>bmicalculator</artifactId>
   <name>BMImaxCalculator</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <description>A simple Body-Mass-Index calculator for users 18 years and older.</description>
   <developers>
     <developer>
