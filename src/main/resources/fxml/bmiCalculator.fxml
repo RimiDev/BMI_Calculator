@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="412.0" prefWidth="981.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rimidev.controllers.bmiCalculatorController">
+  <children>
+      <GridPane prefHeight="402.0" prefWidth="977.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="411.0" minWidth="10.0" prefWidth="233.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="545.0" minWidth="10.0" prefWidth="284.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="557.0" minWidth="10.0" prefWidth="458.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="53.0" prefWidth="438.0" text="%bmiCalculator">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <RadioButton fx:id="metric" mnemonicParsing="false" selected="true" text="%Metric" GridPane.rowIndex="2">
+               <toggleGroup>
+                  <ToggleGroup fx:id="calcFormat" />
+               </toggleGroup>
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin>
+            </RadioButton>
+            <RadioButton fx:id="english" mnemonicParsing="false" text="%English" toggleGroup="$calcFormat" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="115.0" />
+               </GridPane.margin>
+            </RadioButton>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="156.0" text="%Configuration" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="35.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="pregnant" mnemonicParsing="false" text="%Pregnant" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="20.0" />
+               </GridPane.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="preg" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="notPregnant" mnemonicParsing="false" selected="true" text="%Notpregnant" toggleGroup="$preg" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="115.0" />
+               </GridPane.margin>
+            </RadioButton>
+            <TextField fx:id="height" prefHeight="25.0" prefWidth="222.0" promptText="%metricFormat" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="68.0" text="%Height" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="75.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER" prefHeight="17.0" prefWidth="68.0" text="%Weight" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="75.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="weight" promptText="%weightFormat" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="20.0" right="20.0" top="30.0" />
+               </GridPane.margin>
+            </TextField>
+            <Button fx:id="calcButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onCalculate" prefHeight="25.0" prefWidth="75.0" text="%Calculate" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="75.0" top="15.0" />
+               </GridPane.margin>
+            </Button>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="152.0" text="%Results" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="55.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="category" alignment="CENTER" prefHeight="17.0" prefWidth="150.0" text="%Category" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="55.0" top="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="risk" alignment="CENTER" prefHeight="17.0" prefWidth="261.0" text="%Risk" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets top="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="calculation" alignment="CENTER" prefHeight="17.0" prefWidth="150.0" text="%bmiCalculation" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="55.0" top="15.0" />
+               </GridPane.margin>
+            </Label>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onExit" prefHeight="25.0" prefWidth="75.0" text="%Exit" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <GridPane.margin>
+                  <Insets left="95.0" top="15.0" />
+               </GridPane.margin>
+            </Button>
+            <TableView fx:id="resultTable" prefHeight="171.0" prefWidth="402.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.rowSpan="3">
+              <columns>
+                <TableColumn fx:id="categoryLabel" prefWidth="133.0" text="%Category" />
+                <TableColumn fx:id="bmiLabel" prefWidth="92.0" text="%BMI" />
+                  <TableColumn fx:id="riskLabel" prefWidth="240.0" text="%Risk" />
+              </columns>
+               <GridPane.margin>
+                  <Insets right="15.0" />
+               </GridPane.margin>
+            </TableView>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="265.0" text="%BMIresulttable" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="90.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+  </children>
+</VBox>

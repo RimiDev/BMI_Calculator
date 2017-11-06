@@ -1,0 +1,123 @@
+[DEBUG] 2017-11-04 10:55:47.006 [JavaFX Application Thread] Metric - 0.9
+[DEBUG] 2017-11-04 10:55:47.007 [JavaFX Application Thread] Metric - 150.0
+[DEBUG] 2017-11-04 10:56:18.061 [JavaFX Application Thread] Metric - 0.9
+[DEBUG] 2017-11-04 10:56:18.063 [JavaFX Application Thread] Metric - 150.0
+[DEBUG] 2017-11-04 10:56:19.948 [JavaFX Application Thread] Metric - 0.9
+[DEBUG] 2017-11-04 10:56:19.948 [JavaFX Application Thread] Metric - 150.0
+[DEBUG] 2017-11-04 10:56:20.549 [JavaFX Application Thread] Metric - 0.9
+[DEBUG] 2017-11-04 10:56:20.549 [JavaFX Application Thread] Metric - 150.0
+[DEBUG] 2017-11-04 10:56:23.356 [JavaFX Application Thread] Metric - 0.915
+[DEBUG] 2017-11-04 10:56:23.356 [JavaFX Application Thread] Metric - 150.0
+[DEBUG] 2017-11-04 10:56:31.093 [JavaFX Application Thread] Metric - 0.915
+[DEBUG] 2017-11-04 10:56:31.093 [JavaFX Application Thread] Metric - 49.0
+[DEBUG] 2017-11-04 11:14:54.705 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:14:57.308 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:15:12.496 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:16:54.226 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:16:54.229 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 0.915], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:16:54.229 [JavaFX Application Thread] bmiCalculatorController - reaches
+[DEBUG] 2017-11-04 11:16:59.485 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:16:59.486 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 0.91], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:17:06.370 [JavaFX Application Thread] bmiCalculatorController - match: true
+[DEBUG] 2017-11-04 11:17:06.370 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 0.5], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:18:59.485 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 1.9], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:18:59.487 [JavaFX Application Thread] bmiCalculatorController - reaches
+[DEBUG] 2017-11-04 11:24:00.903 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 1.2], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:24:00.905 [JavaFX Application Thread] bmiCalculatorController - reaches
+[DEBUG] 2017-11-04 11:43:52.854 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 9.15], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:44:00.161 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 9.15], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:44:00.463 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 9.15], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:44:00.623 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 9.15], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:44:00.797 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 9.15], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:45:02.001 [JavaFX Application Thread] bmiCalculatorController - metric createdMetric{height=DoubleProperty [value: 0.95], weight=DoubleProperty [value: 150.0]}
+[DEBUG] 2017-11-04 11:45:02.003 [JavaFX Application Thread] bmiCalculatorController - reaches
+[DEBUG] 2017-11-05 04:01:05.149 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:02:17.450 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:02:17.451 [JavaFX Application Thread] English - height length:1
+[DEBUG] 2017-11-05 04:03:21.548 [JavaFX Application Thread] English - height length:4
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height: 53.0
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height length:4
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:03:21.550 [JavaFX Application Thread] English - height: 53.0
+[DEBUG] 2017-11-05 04:03:21.551 [JavaFX Application Thread] English - height length:4
+[DEBUG] 2017-11-05 04:03:21.551 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:03:21.551 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:03:21.551 [JavaFX Application Thread] English - height: 53.0
+[DEBUG] 2017-11-05 04:03:45.473 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:03:45.473 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:03:45.473 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:03:45.473 [JavaFX Application Thread] English - height: 99.0
+[DEBUG] 2017-11-05 04:04:11.814 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:04:11.814 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:04:11.814 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:04:11.814 [JavaFX Application Thread] English - height: 104.0
+[DEBUG] 2017-11-05 04:04:14.881 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:04:14.881 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:04:14.881 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:04:14.881 [JavaFX Application Thread] English - height: 104.0
+[DEBUG] 2017-11-05 04:04:18.614 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:04:18.614 [JavaFX Application Thread] English - height inches:5
+[DEBUG] 2017-11-05 04:04:18.614 [JavaFX Application Thread] English - height feet:4
+[DEBUG] 2017-11-05 04:04:18.614 [JavaFX Application Thread] English - height: 104.0
+[DEBUG] 2017-11-05 04:06:11.566 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:06:11.568 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:06:11.569 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:34.507 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:07:34.509 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:34.509 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:34.509 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:34.510 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:07:34.510 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:34.510 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:34.510 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height length:8
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height length:8
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:40.399 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:40.400 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height length:8
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height length:8
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:42.257 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height length:10
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height length:10
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:07:43.836 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:07:43.837 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:26:19.034 [JavaFX Application Thread] English - height length:3
+[DEBUG] 2017-11-05 04:26:19.036 [JavaFX Application Thread] English - height inches:0
+[DEBUG] 2017-11-05 04:26:19.036 [JavaFX Application Thread] English - height feet:1
+[DEBUG] 2017-11-05 04:30:45.074 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height length:5
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:30:45.076 [JavaFX Application Thread] English - height feet:5
+[DEBUG] 2017-11-05 04:30:45.077 [JavaFX Application Thread] English - height: 71.0
+[DEBUG] 2017-11-05 04:42:25.916 [JavaFX Application Thread] English - height length:4
+[DEBUG] 2017-11-05 04:42:25.917 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:42:25.917 [JavaFX Application Thread] English - height feet:6
+[DEBUG] 2017-11-05 04:42:25.918 [JavaFX Application Thread] English - height: 73.0
+[DEBUG] 2017-11-05 04:42:25.918 [JavaFX Application Thread] English - height length:4
+[DEBUG] 2017-11-05 04:42:25.918 [JavaFX Application Thread] English - height inches:1
+[DEBUG] 2017-11-05 04:42:25.918 [JavaFX Application Thread] English - height feet:6
+[DEBUG] 2017-11-05 04:42:25.918 [JavaFX Application Thread] English - height: 73.0
