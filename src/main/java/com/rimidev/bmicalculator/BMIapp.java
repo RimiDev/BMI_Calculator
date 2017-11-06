@@ -14,6 +14,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+/**
+ * This class is used to handle all the javafx scenes.
+ * @author Maxime Lacasse
+ * @version 1.1
+ */
 public class BMIapp extends Application {
 
     private final Logger log = LoggerFactory.getLogger(getClass().getName());
